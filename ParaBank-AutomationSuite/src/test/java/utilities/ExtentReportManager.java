@@ -50,6 +50,7 @@ public class ExtentReportManager implements ITestListener {
 		// GENERATE UNIQUE REPORT FILE NAME
 		// Creates report name like: "Test-Report-2024.03.15.14.30.25.html"
 		repName = "Test-Report-" + timeStamp + ".html";
+
 		
 		// INITIALIZE EXTENT SPARK REPORTER
 		// Creates HTML reporter and specifies the file location in the "reports" folder
@@ -143,22 +144,20 @@ public class ExtentReportManager implements ITestListener {
 	}
 
 	// FINALIZE REPORT AFTER ALL TESTS COMPLETE
-	public void onFinish(ITestContext testContext) {
-		// Write all collected test data to the HTML report file
-		extent.flush();
-		
-		// BUILD FULL PATH TO THE GENERATED REPORT
-		String pathOfExtentReport = System.getProperty("user.dir") + "\\report\\" + repName;
-		File extentReport = new File(pathOfExtentReport);
-		
-		// AUTOMATICALLY OPEN REPORT IN DEFAULT BROWSER
-		try {
-			Desktop.getDesktop().browse(extentReport.toURI());
-		} catch (IOException e) {
-			e.printStackTrace(); // Print error if report opening fails
-		}
-	
-
+		public void onFinish(ITestContext testContext) {
+			// Write all collected test data to the HTML report file
+			extent.flush();
+			
+			// BUILD FULL PATH TO THE GENERATED REPORT
+			String pathOfExtentReport = System.getProperty("user.dir") + "\\reports\\" + repName;
+			File extentReport = new File(pathOfExtentReport);
+			
+			// AUTOMATICALLY OPEN REPORT IN DEFAULT BROWSER
+			try {
+				Desktop.getDesktop().browse(extentReport.toURI());
+			} catch (IOException e) {
+				e.printStackTrace(); // Print error if report opening fails
+			}
 		
 		/* try {
 			  URL url = new  URL("file:///"+System.getProperty("user.dir")+"\\reports\\"+repName);

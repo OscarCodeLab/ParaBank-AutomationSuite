@@ -1767,3 +1767,9 @@ Found two providers called &apos;LoginData&apos; on class utilities.DataProvider
 20:51:32.135 [main] INFO  testcases.LoginTest - ***** Finished TC_003_LoginDDT *****
 20:51:33.877 [main] ERROR testcases.LoginTest - ❌ Login succeeded with invalid credentials: Johnson_Tester / Pass@1234
 20:51:34.988 [main] INFO  testcases.LoginTest - ***** Finished TC_003_LoginDDT *****
+21:20:37.451 [main] INFO  testcases.LoginTest - ✅ Login successful with valid credentials: Johnson_Tester / Password123!
+21:20:38.882 [main] INFO  testcases.LoginTest - ***** Finished TC_003_LoginDDT *****
+21:20:40.302 [main] ERROR testcases.LoginTest - ❌ Login succeeded with invalid credentials: invalidUser123 / Test1234
+21:20:41.129 [main] INFO  testcases.LoginTest - ***** Finished TC_003_LoginDDT *****
+21:20:42.600 [main] ERROR testcases.LoginTest - ❌ Login succeeded with invalid credentials: Johnson_Tester / Pass@1234
+21:20:43.471 [main] INFO  testcases.LoginTest - ***** Finished TC_003_LoginDDT *****
