@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testcases.NegativeTransferTest">
+      <class name="testcases.BillPageTest">
         <methods>
-          <include name="negativeTransferTest" invocation-numbers="0 1 2 3"/>
           <include name="tearDown"/>
-          <include name="setUpLogin"/>
+          <include name="billPageDataTest" invocation-numbers="0"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testcases.NegativeTransferTest -->
+      </class> <!-- testcases.BillPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

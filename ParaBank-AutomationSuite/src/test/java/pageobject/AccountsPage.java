@@ -33,8 +33,20 @@ public class AccountsPage extends BasePage {
 	@FindBy(linkText = "Transfer Funds")
 	WebElement transferFundsLink;
 	
+	@FindBy(linkText = "Bill Pay")
+	WebElement billPayLink;
+	
+	@FindBy(xpath = "//tbody/tr[1]/td[2]")
+	WebElement firstAcctBal;
+	
+	
+	
 	public void clickTransferFundsLink() {
 		transferFundsLink.click();
+	}
+	
+	public void clickbillPayLink() {
+		billPayLink.click();
 	}
 	  public boolean isAccountPresent(String expectedAccountId) {
 	        for (WebElement link : accountLinks) {
@@ -121,5 +133,7 @@ public class AccountsPage extends BasePage {
         return sum;
     }
     
-    
+    public String getFirstAcctBal() {
+    	return firstAcctBal.getText();
+    }
 }

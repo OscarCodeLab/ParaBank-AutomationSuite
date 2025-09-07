@@ -25,7 +25,7 @@ public class NegativeTransferTest extends BaseClass {
         System.out.println("✅ Logged in successfully!");
     }
 
-    @Test(dataProviderClass = DataProviders.class, dataProvider = "TransferData")
+    @Test(dataProviderClass = DataProviders.class, dataProvider = "dp")
     public void negativeTransferTest(String amount, String from, String to) {
         // Convert from and to strings to integers (handle decimals)
         int fromAccount = (int) Double.parseDouble(from);

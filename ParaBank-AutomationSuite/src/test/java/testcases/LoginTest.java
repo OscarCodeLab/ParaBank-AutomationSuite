@@ -12,7 +12,7 @@ public class LoginTest extends BaseClass {
 
     LoginPage login;
 
-    @Test(dataProviderClass = DataProviders.class, dataProvider = "LoginData")
+    @Test(dataProviderClass = DataProviders.class, dataProvider = "dp")
     public void loginData(String username, String pwd, String exp) throws InterruptedException {
         login = new LoginPage(driver);
 

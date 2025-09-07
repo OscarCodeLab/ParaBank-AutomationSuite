@@ -9,6 +9,7 @@
       <class name="testcases.AccountPageTest">
         <methods>
           <include name="tearDown"/>
+          <include name="verifyAccountRowsData"/>
           <include name="verifyTotalBalance"/>
           <include name="setup"/>
         </methods>
