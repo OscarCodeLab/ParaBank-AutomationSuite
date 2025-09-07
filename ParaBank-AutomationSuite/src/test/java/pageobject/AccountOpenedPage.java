@@ -21,9 +21,6 @@ public class AccountOpenedPage extends BasePage{
 	@FindBy(xpath = "//h1[text() = 'Account Opened!']")
 	WebElement  confirmationMessage;
 	
-	@FindBy(linkText = "Accounts Overview")
-	WebElement  acctOverviewLink;
-	
 	
 
     public String getConfirmationMessage() {
@@ -40,8 +37,5 @@ public class AccountOpenedPage extends BasePage{
 		newAccountLink.click();
 	}
 	
-	public void clickAcctOverviewLink() {
-		acctOverviewLink.click();
-	}
 
 }

@@ -4,20 +4,21 @@ import java.util.HashMap;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
-import pageobject.LandingPage;
+import pageobject.NavigationBarPage;
 import pageobject.RegisterPage;
 import testbase.BaseClass;
 import utilities.DataProviders;
 
 public class RegisterTest extends BaseClass{
-	public LandingPage land;
+	public NavigationBarPage nav;
 	public RegisterPage reg;
 
 	@Test(dataProviderClass = DataProviders.class, dataProvider = "dp")
 	public void registerDataTest(HashMap<String, String> data) {
-		land = new LandingPage(driver);
-		land.clickRegisterLink();
+		
+		
+		nav = new NavigationBarPage(driver);
+		nav.clickRegisterLink();
 		
 		reg = new RegisterPage(driver);
 		reg.registerAccount(

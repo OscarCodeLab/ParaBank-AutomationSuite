@@ -5,14 +5,15 @@ import org.testng.annotations.Test;
 
 import pageobject.AccountsPage;
 import pageobject.LoginPage;
+import pageobject.NavigationBarPage;
 import pageobject.TransferFundsPage;
 import testbase.BaseClass;
 
 public class PositiveTransferTest extends BaseClass{
 
-	LoginPage login;
-	AccountsPage acct;
-	TransferFundsPage transfer;	
+	private LoginPage login;
+	private NavigationBarPage nav;
+	private TransferFundsPage transfer;	
 	
 	
 	@Test(priority = 1)
@@ -20,7 +21,7 @@ public class PositiveTransferTest extends BaseClass{
         login = new LoginPage(driver);
         login.clicklogins(prop.getProperty("username"), prop.getProperty("pwd"));
 
-        acct = new AccountsPage(driver);
+        nav = new NavigationBarPage(driver);
 
         int from = Integer.parseInt(prop.getProperty("from"));
         int to = Integer.parseInt(prop.getProperty("to"));
@@ -36,7 +37,7 @@ public class PositiveTransferTest extends BaseClass{
 
     
     private void performTransfer(String amount, int from, int to) {
-        acct.clickTransferFundsLink();               
+        nav.clickTransferFundsLink();               
         transfer = new TransferFundsPage(driver);    
         transfer.transferFunds(amount, from, to);    
 

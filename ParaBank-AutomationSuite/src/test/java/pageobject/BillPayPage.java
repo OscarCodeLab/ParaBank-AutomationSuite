@@ -51,9 +51,6 @@ public class BillPayPage extends BasePage{
 
 	@FindBy(xpath = "//div[@id='billpayResult']/p[1]")
 	WebElement successMsg;
-	
-	@FindBy(linkText = "Accounts Overview")
-	WebElement AccountsOverview;
 
 	
 
@@ -84,9 +81,6 @@ public class BillPayPage extends BasePage{
 		return successMsg.getText();
 	}
 	
-	public void gotoAcctOverViewPage() {
-		AccountsOverview.click();
-	}
 	
 }
 

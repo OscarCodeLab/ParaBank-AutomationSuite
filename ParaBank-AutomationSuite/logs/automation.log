@@ -1773,3 +1773,15 @@ Found two providers called &apos;LoginData&apos; on class utilities.DataProvider
 21:20:41.129 [main] INFO  testcases.LoginTest - ***** Finished TC_003_LoginDDT *****
 21:20:42.600 [main] ERROR testcases.LoginTest - ❌ Login succeeded with invalid credentials: Johnson_Tester / Pass@1234
 21:20:43.471 [main] INFO  testcases.LoginTest - ***** Finished TC_003_LoginDDT *****
+16:07:17.869 [main] INFO  testcases.RegisterNegativeTest - Testing mandatory validation for: First Name
+16:07:22.181 [main] INFO  testcases.RegisterNegativeTest - Testing mandatory validation for: Last Name
+16:07:25.695 [main] INFO  testcases.RegisterNegativeTest - Testing mandatory validation for: Address
+16:07:29.510 [main] INFO  testcases.RegisterNegativeTest - Testing mandatory validation for: City
+16:07:32.828 [main] INFO  testcases.RegisterNegativeTest - Testing mandatory validation for: State
+16:07:36.264 [main] INFO  testcases.RegisterNegativeTest - Testing mandatory validation for: ZipCode
+16:07:39.848 [main] INFO  testcases.RegisterNegativeTest - Testing mandatory validation for: SSN
+16:07:43.519 [main] INFO  testcases.RegisterNegativeTest - Testing mandatory validation for: Username
+16:07:46.928 [main] INFO  testcases.RegisterNegativeTest - Testing mandatory validation for: Password
+16:07:50.288 [main] INFO  testcases.RegisterNegativeTest - Testing mandatory validation for: Confirm Password
+16:39:23.998 [main] INFO  testcases.LoginTest - ✅ Login successful with valid credentials: Johnson_Tester / Password123!
+16:39:25.116 [main] INFO  testcases.LoginTest - ***** Finished TC_003_LoginDDT *****

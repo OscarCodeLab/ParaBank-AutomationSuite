@@ -11,8 +11,7 @@ public class LandingPage extends BasePage{
 		// TODO Auto-generated constructor stub
 	}
 
-	@FindBy(linkText = "Register")
-	WebElement registerLink;
+	
 	
 	@FindBy(xpath = "//input[@value = 'Log In']")
 	WebElement loginBtn;
@@ -26,7 +25,5 @@ public class LandingPage extends BasePage{
 	@FindBy(partialLinkText = "Forgot login")
 	WebElement forgetPasswordLink;
 	
-	public void clickRegisterLink() {
-		registerLink.click();
-	}
+	
 }

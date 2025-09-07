@@ -4,18 +4,19 @@ import java.util.HashMap;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pageobject.LandingPage;
+import pageobject.NavigationBarPage;
 import pageobject.RegisterPage;
 import testbase.BaseClass;
 import utilities.DataProviders;
 
 public class RegisterNegativeTest extends BaseClass {
-
-    private LandingPage land;
+	public NavigationBarPage nav;
+    
     private RegisterPage reg;
 
     private void openRegistrationPage() {
-        land = new LandingPage(driver);
-        land.clickRegisterLink();
+    	nav = new NavigationBarPage(driver);
+        nav.clickRegisterLink();
         reg = new RegisterPage(driver);
     }
 

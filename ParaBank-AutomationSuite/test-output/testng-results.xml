@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-07T04:51:47 WAT" name="Default suite" finished-at="2025-09-07T04:52:02 WAT" duration-ms="15419">
+  <suite started-at="2025-09-07T16:45:57 WAT" name="Default suite" finished-at="2025-09-07T16:46:11 WAT" duration-ms="14052">
     <groups>
     </groups>
-    <test started-at="2025-09-07T04:51:47 WAT" name="Default test" finished-at="2025-09-07T04:52:02 WAT" duration-ms="15419">
+    <test started-at="2025-09-07T16:45:57 WAT" name="Default test" finished-at="2025-09-07T16:46:11 WAT" duration-ms="14052">
       <class name="testcases.BillPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.BillPageTest@6dc1484]" started-at="2025-09-07T04:51:47 WAT" name="setup" finished-at="2025-09-07T04:51:55 WAT" duration-ms="7686" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.BillPageTest@6dc1484]" started-at="2025-09-07T16:45:57 WAT" name="setup" finished-at="2025-09-07T16:46:04 WAT" duration-ms="7507" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="billPageDataTest(java.util.HashMap)[pri:0, instance:testcases.BillPageTest@6dc1484]" started-at="2025-09-07T04:51:55 WAT" name="billPageDataTest" data-provider="dp" finished-at="2025-09-07T04:52:02 WAT" duration-ms="7144" status="FAIL">
+        <test-method signature="billPageDataTest(java.util.HashMap)[pri:0, instance:testcases.BillPageTest@6dc1484]" started-at="2025-09-07T16:46:05 WAT" name="billPageDataTest" data-provider="dp" finished-at="2025-09-07T16:46:11 WAT" duration-ms="6036" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -21,17 +21,17 @@
           </params>
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[The new Balance still display thesame or wrong balance  expected [215.5] but found [315.5]]]>
+              <![CDATA[The new Balance still display thesame or wrong balance  expected [-700.0] but found [-600.0]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The new Balance still display thesame or wrong balance  expected [215.5] but found [315.5]
+              <![CDATA[java.lang.AssertionError: The new Balance still display thesame or wrong balance  expected [-700.0] but found [-600.0]
 at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.failNotEquals(Assert.java:1590)
 at org.testng.Assert.assertEqualsImpl(Assert.java:150)
 at org.testng.Assert.assertEquals(Assert.java:132)
 at org.testng.Assert.assertEquals(Assert.java:765)
 at org.testng.Assert.assertEquals(Assert.java:741)
-at testcases.BillPageTest.billPageDataTest(BillPageTest.java:51)
+at testcases.BillPageTest.billPageDataTest(BillPageTest.java:56)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -64,7 +64,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- billPageDataTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.BillPageTest@6dc1484]" started-at="2025-09-07T04:52:02 WAT" name="tearDown" finished-at="2025-09-07T04:52:02 WAT" duration-ms="368" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.BillPageTest@6dc1484]" started-at="2025-09-07T16:46:11 WAT" name="tearDown" finished-at="2025-09-07T16:46:11 WAT" duration-ms="313" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

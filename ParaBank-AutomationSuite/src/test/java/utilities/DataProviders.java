@@ -83,7 +83,7 @@ public class DataProviders extends BaseClass{
 		
 	}	
 	
-	@DataProvider(name="LoginData")
+	@DataProvider(name="data")
 	public Object[][] loginData(Method m) {
 	
 		String sheetName = m.getName();

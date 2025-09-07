@@ -2,9 +2,11 @@ package testcases;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
 import pageobject.AccountOpenedPage;
 import pageobject.AccountsPage;
 import pageobject.LoginPage;
+import pageobject.NavigationBarPage;
 import pageobject.OpenAccountPage;
 import testbase.BaseClass;
 
@@ -13,6 +15,7 @@ public class CreateAccountTest extends BaseClass {
     private AccountsPage acct;
     private OpenAccountPage open;
     private AccountOpenedPage acctOpen;
+    private  NavigationBarPage nav;
 
     @Test(priority = 1)
     public void createCheckingAccountTest() {
@@ -30,11 +33,12 @@ public class CreateAccountTest extends BaseClass {
     private void initializePages() {
         login = new LoginPage(driver);
         login.clicklogins(prop.getProperty("username"), prop.getProperty("pwd"));
+        nav = new NavigationBarPage(driver);
         acct = new AccountsPage(driver);
     }
 
     private void createAccount(String accountType) {
-        acct.clickOpenAcctLink();
+        nav.clickOpenAcctLink();
         
         open = new OpenAccountPage(driver);
         open.selectAccountType(accountType);
@@ -55,7 +59,7 @@ public class CreateAccountTest extends BaseClass {
         System.out.println("New Account ID: " + newAccountId);
         Assert.assertNotNull(newAccountId, "Account ID should not be null.");
 
-        acctOpen.clickAcctOverviewLink();
+        nav.clickAcctOverviewLink();
         boolean isFound = acct.isAccountPresent(newAccountId);
         Assert.assertTrue(isFound, "Newly created account ID " + newAccountId + " was NOT found in Accounts Overview.");
     }

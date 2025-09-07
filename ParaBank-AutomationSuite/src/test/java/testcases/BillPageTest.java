@@ -8,14 +8,16 @@ import org.testng.annotations.Test;
 import pageobject.AccountsPage;
 import pageobject.BillPayPage;
 import pageobject.LoginPage;
+import pageobject.NavigationBarPage;
 import testbase.BaseClass;
 import utilities.DataProviders;
 
 public class BillPageTest extends BaseClass{
+	
 	LoginPage login;
 	AccountsPage acct;
 	BillPayPage bill;
-	
+	NavigationBarPage nav;
 	
 	@Test(dataProviderClass = DataProviders.class, dataProvider = "dp")
 	public void billPageDataTest(HashMap<String, String> data) {
@@ -25,7 +27,9 @@ public class BillPageTest extends BaseClass{
 	acct = new AccountsPage(driver);
 	Double oldBal = Double.parseDouble(acct.getFirstAcctBal().replace("$", ""));
 	Double amount = Double.parseDouble(data.get("Amount"));
-	acct.clickbillPayLink();
+	
+	nav = new NavigationBarPage(driver);
+	nav.clickbillPayLink();
 	
 	
 	bill = new BillPayPage(driver);
@@ -46,7 +50,8 @@ public class BillPageTest extends BaseClass{
 	System.out.println(actMsg);
 	Assert.assertTrue(!actMsg.isEmpty(), "Confirmation text should be displayed." );
 	
-	bill.gotoAcctOverViewPage();
+	
+	nav.clickAcctOverviewLink();
 	Double newBal = Double.parseDouble(acct.getFirstAcctBal().replace("$", ""));
 	Assert.assertEquals(newBal, oldBal - amount, "The new Balance still display thesame or wrong balance ");
 	}
