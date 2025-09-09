@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Sep 07 16:45:57 WAT 2025</td>
+<td>Started on:</td><td>Tue Sep 09 17:23:23 WAT 2025</td>
 </tr>
-<tr><td>Total time:</td><td>14 seconds (14052 ms)</td>
+<tr><td>Total time:</td><td>37 seconds (37983 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,15 +76,12 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testcases.BillPageTest.billPageDataTest()'><b>billPageDataTest</b><br>Test class: testcases.BillPageTest<br>Parameters: {Account=20004, Address=Iyara Ijumu LGA Kogi State, verify Account=20004, State=Kogi, ZipCode=49292, Phone=09188282828, Amount=100.0, From Acount=1.0, City=Kabba, Name=Alemidan Ojo}</td>
-<td><div><pre>java.lang.AssertionError: The new Balance still display thesame or wrong balance  expected [-700.0] but found [-600.0]
+<td title='testcases.RegisterNegativeTest.validateMandatoryFields()'><b>validateMandatoryFields</b><br>Test class: testcases.RegisterNegativeTest<br>Parameters: {Address=123 Test St, Username=Johnson_Tester, State=CA, ZipCode=12345.0, Confirm Password=Password123!, First Name=Johnson, City=Testville, Last Name=Green, Phone Number=555-123-4567, SSN=8.39383897E8, Password=Password123!}</td>
+<td><div><pre>java.lang.AssertionError: ❌ Expected an error message for &apos;Confirm Password&apos; but none was displayed. expected [false] but found [true]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1590)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:765)
-	at org.testng.Assert.assertEquals(Assert.java:741)
-	at testcases.BillPageTest.billPageDataTest(BillPageTest.java:56)
+	at org.testng.Assert.assertFalse(Assert.java:79)
+	at testcases.RegisterNegativeTest.validateMandatoryFields(RegisterNegativeTest.java:66)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -111,15 +108,12 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1214284410", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1214284410'><pre>java.lang.AssertionError: The new Balance still display thesame or wrong balance  expected [-700.0] but found [-600.0]
+</pre></div><a href='#' onClick='toggleBox("stack-trace1585824283", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1585824283'><pre>java.lang.AssertionError: ❌ Expected an error message for &apos;Confirm Password&apos; but none was displayed. expected [false] but found [true]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1590)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:765)
-	at org.testng.Assert.assertEquals(Assert.java:741)
-	at testcases.BillPageTest.billPageDataTest(BillPageTest.java:56)
+	at org.testng.Assert.assertFalse(Assert.java:79)
+	at testcases.RegisterNegativeTest.validateMandatoryFields(RegisterNegativeTest.java:66)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -147,8 +141,8 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>6</td>
-<td>testcases.BillPageTest@6dc1484</td></tr>
+<td>31</td>
+<td>testcases.RegisterNegativeTest@7ea4d397</td></tr>
 </table><p>
 </body>
 </html>

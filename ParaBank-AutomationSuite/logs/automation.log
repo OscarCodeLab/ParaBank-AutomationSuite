@@ -1785,3 +1785,562 @@ Found two providers called &apos;LoginData&apos; on class utilities.DataProvider
 16:07:50.288 [main] INFO  testcases.RegisterNegativeTest - Testing mandatory validation for: Confirm Password
 16:39:23.998 [main] INFO  testcases.LoginTest - ✅ Login successful with valid credentials: Johnson_Tester / Password123!
 16:39:25.116 [main] INFO  testcases.LoginTest - ***** Finished TC_003_LoginDDT *****
+08:39:49.005 [main] INFO  testcases.LoginTest - ✅ Login successful with valid credentials: Johnson_Tester / Password123!
+08:39:50.253 [main] INFO  testcases.LoginTest - ***** Finished TC_003_LoginDDT *****
+08:39:52.134 [main] ERROR testcases.LoginTest - ❌ Login succeeded with invalid credentials: invalidUser123 / Test1234
+08:39:53.280 [main] INFO  testcases.LoginTest - ***** Finished TC_003_LoginDDT *****
+08:39:55.129 [main] ERROR testcases.LoginTest - ❌ Login succeeded with invalid credentials: Johnson_Tester / Pass@1234
+08:39:56.278 [main] INFO  testcases.LoginTest - ***** Finished TC_003_LoginDDT *****
+08:49:34.463 [main] INFO  testcases.AccountPageTest - ===== Starting Test: verifyAccountRowsData =====
+08:49:34.528 [main] INFO  testcases.AccountPageTest - Logging in with username: Johnson_Tester
+08:49:35.155 [main] INFO  testcases.AccountPageTest - Fetching account data from Accounts page...
+08:49:39.734 [main] INFO  testcases.AccountPageTest - Row Data -> Account: 13344 | Balance: -$1202756.07 | Available: $0.00
+08:49:39.739 [main] DEBUG testcases.AccountPageTest - Validated account is not empty.
+08:49:39.743 [main] DEBUG testcases.AccountPageTest - Validated balance contains $ symbol.
+08:49:39.743 [main] DEBUG testcases.AccountPageTest - Validated available balance field.
+08:49:39.743 [main] INFO  testcases.AccountPageTest - Row Data -> Account: 14787 | Balance: $1208779.00 | Available: $1208779.00
+08:49:39.743 [main] DEBUG testcases.AccountPageTest - Validated account is not empty.
+08:49:39.744 [main] DEBUG testcases.AccountPageTest - Validated balance contains $ symbol.
+08:49:39.744 [main] DEBUG testcases.AccountPageTest - Validated available balance field.
+08:49:39.744 [main] INFO  testcases.AccountPageTest - Row Data -> Account: 15120 | Balance: $3000.00 | Available: $3000.00
+08:49:39.744 [main] DEBUG testcases.AccountPageTest - Validated account is not empty.
+08:49:39.745 [main] DEBUG testcases.AccountPageTest - Validated balance contains $ symbol.
+08:49:39.745 [main] DEBUG testcases.AccountPageTest - Validated available balance field.
+08:49:39.748 [main] INFO  testcases.AccountPageTest - Row Data -> Account: 15231 | Balance: $100.00 | Available: $100.00
+08:49:39.750 [main] DEBUG testcases.AccountPageTest - Validated account is not empty.
+08:49:39.750 [main] DEBUG testcases.AccountPageTest - Validated balance contains $ symbol.
+08:49:39.752 [main] DEBUG testcases.AccountPageTest - Validated available balance field.
+08:49:39.754 [main] INFO  testcases.AccountPageTest - Row Data -> Account: 15342 | Balance: -$900.00 | Available: $0.00
+08:49:39.754 [main] DEBUG testcases.AccountPageTest - Validated account is not empty.
+08:49:39.755 [main] DEBUG testcases.AccountPageTest - Validated balance contains $ symbol.
+08:49:39.755 [main] DEBUG testcases.AccountPageTest - Validated available balance field.
+08:49:39.756 [main] INFO  testcases.AccountPageTest - Row Data -> Account: 15675 | Balance: $4000.00 | Available: $4000.00
+08:49:39.756 [main] DEBUG testcases.AccountPageTest - Validated account is not empty.
+08:49:39.757 [main] DEBUG testcases.AccountPageTest - Validated balance contains $ symbol.
+08:49:39.757 [main] DEBUG testcases.AccountPageTest - Validated available balance field.
+08:49:39.757 [main] INFO  testcases.AccountPageTest - Row Data -> Account: 16119 | Balance: -$900.00 | Available: $0.00
+08:49:39.757 [main] DEBUG testcases.AccountPageTest - Validated account is not empty.
+08:49:39.758 [main] DEBUG testcases.AccountPageTest - Validated balance contains $ symbol.
+08:49:39.758 [main] DEBUG testcases.AccountPageTest - Validated available balance field.
+08:49:39.759 [main] INFO  testcases.AccountPageTest - Row Data -> Account: 16230 | Balance: $100.00 | Available: $100.00
+08:49:39.760 [main] DEBUG testcases.AccountPageTest - Validated account is not empty.
+08:49:39.760 [main] DEBUG testcases.AccountPageTest - Validated balance contains $ symbol.
+08:49:39.761 [main] DEBUG testcases.AccountPageTest - Validated available balance field.
+08:49:39.761 [main] INFO  testcases.AccountPageTest - Row Data -> Account: 16785 | Balance: $5000.00 | Available: $5000.00
+08:49:39.761 [main] DEBUG testcases.AccountPageTest - Validated account is not empty.
+08:49:39.761 [main] DEBUG testcases.AccountPageTest - Validated balance contains $ symbol.
+08:49:39.761 [main] DEBUG testcases.AccountPageTest - Validated available balance field.
+08:49:39.762 [main] INFO  testcases.AccountPageTest - Row Data -> Account: 18339 | Balance: $5000.00 | Available: $5000.00
+08:49:39.762 [main] DEBUG testcases.AccountPageTest - Validated account is not empty.
+08:49:39.762 [main] DEBUG testcases.AccountPageTest - Validated balance contains $ symbol.
+08:49:39.765 [main] DEBUG testcases.AccountPageTest - Validated available balance field.
+08:49:39.766 [main] INFO  testcases.AccountPageTest - Row Data -> Account: 18561 | Balance: $100.00 | Available: $100.00
+08:49:39.766 [main] DEBUG testcases.AccountPageTest - Validated account is not empty.
+08:49:39.766 [main] DEBUG testcases.AccountPageTest - Validated balance contains $ symbol.
+08:49:39.767 [main] DEBUG testcases.AccountPageTest - Validated available balance field.
+08:49:39.767 [main] INFO  testcases.AccountPageTest - Row Data -> Account: 18783 | Balance: $100.00 | Available: $100.00
+08:49:39.767 [main] DEBUG testcases.AccountPageTest - Validated account is not empty.
+08:49:39.768 [main] DEBUG testcases.AccountPageTest - Validated balance contains $ symbol.
+08:49:39.768 [main] DEBUG testcases.AccountPageTest - Validated available balance field.
+08:49:39.768 [main] INFO  testcases.AccountPageTest - Row Data -> Account: 19560 | Balance: $5000.00 | Available: $5000.00
+08:49:39.768 [main] DEBUG testcases.AccountPageTest - Validated account is not empty.
+08:49:39.768 [main] DEBUG testcases.AccountPageTest - Validated balance contains $ symbol.
+08:49:39.769 [main] DEBUG testcases.AccountPageTest - Validated available balance field.
+08:49:39.769 [main] INFO  testcases.AccountPageTest - Row Data -> Account: 20004 | Balance: $100.00 | Available: $100.00
+08:49:39.769 [main] DEBUG testcases.AccountPageTest - Validated account is not empty.
+08:49:39.770 [main] DEBUG testcases.AccountPageTest - Validated balance contains $ symbol.
+08:49:39.770 [main] DEBUG testcases.AccountPageTest - Validated available balance field.
+08:49:39.770 [main] INFO  testcases.AccountPageTest - Row Data -> Account: 20115 | Balance: $100.00 | Available: $100.00
+08:49:39.770 [main] DEBUG testcases.AccountPageTest - Validated account is not empty.
+08:49:39.770 [main] DEBUG testcases.AccountPageTest - Validated balance contains $ symbol.
+08:49:39.771 [main] DEBUG testcases.AccountPageTest - Validated available balance field.
+08:49:39.772 [main] INFO  testcases.AccountPageTest - Row Data -> Account: 20448 | Balance: $5000.00 | Available: $5000.00
+08:49:39.772 [main] DEBUG testcases.AccountPageTest - Validated account is not empty.
+08:49:39.773 [main] DEBUG testcases.AccountPageTest - Validated balance contains $ symbol.
+08:49:39.773 [main] DEBUG testcases.AccountPageTest - Validated available balance field.
+08:49:39.773 [main] INFO  testcases.AccountPageTest - Row Data -> Account: 20892 | Balance: $100.00 | Available: $100.00
+08:49:39.773 [main] DEBUG testcases.AccountPageTest - Validated account is not empty.
+08:49:39.773 [main] DEBUG testcases.AccountPageTest - Validated balance contains $ symbol.
+08:49:39.774 [main] DEBUG testcases.AccountPageTest - Validated available balance field.
+08:49:39.774 [main] INFO  testcases.AccountPageTest - Row Data -> Account: 21114 | Balance: $100.00 | Available: $100.00
+08:49:39.774 [main] DEBUG testcases.AccountPageTest - Validated account is not empty.
+08:49:39.775 [main] DEBUG testcases.AccountPageTest - Validated balance contains $ symbol.
+08:49:39.775 [main] DEBUG testcases.AccountPageTest - Validated available balance field.
+08:49:39.775 [main] INFO  testcases.AccountPageTest - Row Data -> Account: 22335 | Balance: $100.00 | Available: $100.00
+08:49:39.776 [main] DEBUG testcases.AccountPageTest - Validated account is not empty.
+08:49:39.776 [main] DEBUG testcases.AccountPageTest - Validated balance contains $ symbol.
+08:49:39.777 [main] DEBUG testcases.AccountPageTest - Validated available balance field.
+08:49:39.777 [main] INFO  testcases.AccountPageTest - Row Data -> Account: 22446 | Balance: $100.00 | Available: $100.00
+08:49:39.778 [main] DEBUG testcases.AccountPageTest - Validated account is not empty.
+08:49:39.779 [main] DEBUG testcases.AccountPageTest - Validated balance contains $ symbol.
+08:49:39.779 [main] DEBUG testcases.AccountPageTest - Validated available balance field.
+08:49:39.779 [main] INFO  testcases.AccountPageTest - Row Data -> Account: 23001 | Balance: $100.00 | Available: $100.00
+08:49:39.779 [main] DEBUG testcases.AccountPageTest - Validated account is not empty.
+08:49:39.782 [main] DEBUG testcases.AccountPageTest - Validated balance contains $ symbol.
+08:49:39.783 [main] DEBUG testcases.AccountPageTest - Validated available balance field.
+08:49:39.783 [main] INFO  testcases.AccountPageTest - Row Data -> Account: 23112 | Balance: $100.00 | Available: $100.00
+08:49:39.784 [main] DEBUG testcases.AccountPageTest - Validated account is not empty.
+08:49:39.785 [main] DEBUG testcases.AccountPageTest - Validated balance contains $ symbol.
+08:49:39.785 [main] DEBUG testcases.AccountPageTest - Validated available balance field.
+08:49:39.785 [main] INFO  testcases.AccountPageTest - Row Data -> Account: 23223 | Balance: $100.00 | Available: $100.00
+08:49:39.786 [main] DEBUG testcases.AccountPageTest - Validated account is not empty.
+08:49:39.786 [main] DEBUG testcases.AccountPageTest - Validated balance contains $ symbol.
+08:49:39.787 [main] DEBUG testcases.AccountPageTest - Validated available balance field.
+08:49:39.787 [main] INFO  testcases.AccountPageTest - Row Data -> Account: 23556 | Balance: $100.00 | Available: $100.00
+08:49:39.787 [main] DEBUG testcases.AccountPageTest - Validated account is not empty.
+08:49:39.789 [main] DEBUG testcases.AccountPageTest - Validated balance contains $ symbol.
+08:49:39.789 [main] DEBUG testcases.AccountPageTest - Validated available balance field.
+08:49:39.789 [main] INFO  testcases.AccountPageTest - Row Data -> Account: 23667 | Balance: $100.00 | Available: $100.00
+08:49:39.790 [main] DEBUG testcases.AccountPageTest - Validated account is not empty.
+08:49:39.795 [main] DEBUG testcases.AccountPageTest - Validated balance contains $ symbol.
+08:49:39.795 [main] DEBUG testcases.AccountPageTest - Validated available balance field.
+08:49:39.796 [main] INFO  testcases.AccountPageTest - Row Data -> Account: 24555 | Balance: $100.00 | Available: $100.00
+08:49:39.796 [main] DEBUG testcases.AccountPageTest - Validated account is not empty.
+08:49:39.796 [main] DEBUG testcases.AccountPageTest - Validated balance contains $ symbol.
+08:49:39.798 [main] DEBUG testcases.AccountPageTest - Validated available balance field.
+08:49:39.798 [main] INFO  testcases.AccountPageTest - Row Data -> Account: 24666 | Balance: $100.00 | Available: $100.00
+08:49:39.798 [main] DEBUG testcases.AccountPageTest - Validated account is not empty.
+08:49:39.798 [main] DEBUG testcases.AccountPageTest - Validated balance contains $ symbol.
+08:49:39.799 [main] DEBUG testcases.AccountPageTest - Validated available balance field.
+08:49:39.799 [main] INFO  testcases.AccountPageTest - Row Data -> Account: 25110 | Balance: $100.00 | Available: $100.00
+08:49:39.799 [main] DEBUG testcases.AccountPageTest - Validated account is not empty.
+08:49:39.800 [main] DEBUG testcases.AccountPageTest - Validated balance contains $ symbol.
+08:49:39.800 [main] DEBUG testcases.AccountPageTest - Validated available balance field.
+08:49:39.800 [main] INFO  testcases.AccountPageTest - ===== Completed Test: verifyAccountRowsData =====
+08:49:39.816 [main] INFO  testcases.AccountPageTest - ===== Starting Test: verifyTotalBalance =====
+08:49:42.228 [main] INFO  testcases.AccountPageTest - Calculated Total: 33022.929999999935
+08:49:42.229 [main] INFO  testcases.AccountPageTest - Displayed Total: 33022.93
+08:50:59.782 [main] INFO  testcases.AccountPageTest - ===== Starting Test: verifyAccountRowsData =====
+08:50:59.915 [main] INFO  testcases.AccountPageTest - Logging in with username: Johnson_Tester
+08:51:02.102 [main] INFO  testcases.AccountPageTest - Fetching account data from Accounts page...
+08:51:04.747 [main] INFO  testcases.AccountPageTest - Row Data -> Account: 13344 | Balance: -$1202756.07 | Available: $0.00
+08:51:04.753 [main] DEBUG testcases.AccountPageTest - Validated account is not empty.
+08:51:04.753 [main] DEBUG testcases.AccountPageTest - Validated balance contains $ symbol.
+08:51:04.753 [main] DEBUG testcases.AccountPageTest - Validated available balance field.
+08:51:04.754 [main] INFO  testcases.AccountPageTest - Row Data -> Account: 14787 | Balance: $1208779.00 | Available: $1208779.00
+08:51:04.755 [main] DEBUG testcases.AccountPageTest - Validated account is not empty.
+08:51:04.755 [main] DEBUG testcases.AccountPageTest - Validated balance contains $ symbol.
+08:51:04.756 [main] DEBUG testcases.AccountPageTest - Validated available balance field.
+08:51:04.756 [main] INFO  testcases.AccountPageTest - Row Data -> Account: 15120 | Balance: $3000.00 | Available: $3000.00
+08:51:04.756 [main] DEBUG testcases.AccountPageTest - Validated account is not empty.
+08:51:04.757 [main] DEBUG testcases.AccountPageTest - Validated balance contains $ symbol.
+08:51:04.757 [main] DEBUG testcases.AccountPageTest - Validated available balance field.
+08:51:04.757 [main] INFO  testcases.AccountPageTest - Row Data -> Account: 15231 | Balance: $100.00 | Available: $100.00
+08:51:04.757 [main] DEBUG testcases.AccountPageTest - Validated account is not empty.
+08:51:04.758 [main] DEBUG testcases.AccountPageTest - Validated balance contains $ symbol.
+08:51:04.758 [main] DEBUG testcases.AccountPageTest - Validated available balance field.
+08:51:04.758 [main] INFO  testcases.AccountPageTest - Row Data -> Account: 15342 | Balance: -$900.00 | Available: $0.00
+08:51:04.759 [main] DEBUG testcases.AccountPageTest - Validated account is not empty.
+08:51:04.759 [main] DEBUG testcases.AccountPageTest - Validated balance contains $ symbol.
+08:51:04.759 [main] DEBUG testcases.AccountPageTest - Validated available balance field.
+08:51:04.759 [main] INFO  testcases.AccountPageTest - Row Data -> Account: 15675 | Balance: $4000.00 | Available: $4000.00
+08:51:04.761 [main] DEBUG testcases.AccountPageTest - Validated account is not empty.
+08:51:04.761 [main] DEBUG testcases.AccountPageTest - Validated balance contains $ symbol.
+08:51:04.762 [main] DEBUG testcases.AccountPageTest - Validated available balance field.
+08:51:04.762 [main] INFO  testcases.AccountPageTest - Row Data -> Account: 16119 | Balance: -$900.00 | Available: $0.00
+08:51:04.762 [main] DEBUG testcases.AccountPageTest - Validated account is not empty.
+08:51:04.762 [main] DEBUG testcases.AccountPageTest - Validated balance contains $ symbol.
+08:51:04.762 [main] DEBUG testcases.AccountPageTest - Validated available balance field.
+08:51:04.763 [main] INFO  testcases.AccountPageTest - Row Data -> Account: 16230 | Balance: $100.00 | Available: $100.00
+08:51:04.763 [main] DEBUG testcases.AccountPageTest - Validated account is not empty.
+08:51:04.763 [main] DEBUG testcases.AccountPageTest - Validated balance contains $ symbol.
+08:51:04.763 [main] DEBUG testcases.AccountPageTest - Validated available balance field.
+08:51:04.764 [main] INFO  testcases.AccountPageTest - Row Data -> Account: 16785 | Balance: $5000.00 | Available: $5000.00
+08:51:04.764 [main] DEBUG testcases.AccountPageTest - Validated account is not empty.
+08:51:04.764 [main] DEBUG testcases.AccountPageTest - Validated balance contains $ symbol.
+08:51:04.765 [main] DEBUG testcases.AccountPageTest - Validated available balance field.
+08:51:04.765 [main] INFO  testcases.AccountPageTest - Row Data -> Account: 18339 | Balance: $5000.00 | Available: $5000.00
+08:51:04.765 [main] DEBUG testcases.AccountPageTest - Validated account is not empty.
+08:51:04.765 [main] DEBUG testcases.AccountPageTest - Validated balance contains $ symbol.
+08:51:04.765 [main] DEBUG testcases.AccountPageTest - Validated available balance field.
+08:51:04.766 [main] INFO  testcases.AccountPageTest - Row Data -> Account: 18561 | Balance: $100.00 | Available: $100.00
+08:51:04.766 [main] DEBUG testcases.AccountPageTest - Validated account is not empty.
+08:51:04.766 [main] DEBUG testcases.AccountPageTest - Validated balance contains $ symbol.
+08:51:04.766 [main] DEBUG testcases.AccountPageTest - Validated available balance field.
+08:51:04.766 [main] INFO  testcases.AccountPageTest - Row Data -> Account: 18783 | Balance: $100.00 | Available: $100.00
+08:51:04.767 [main] DEBUG testcases.AccountPageTest - Validated account is not empty.
+08:51:04.767 [main] DEBUG testcases.AccountPageTest - Validated balance contains $ symbol.
+08:51:04.767 [main] DEBUG testcases.AccountPageTest - Validated available balance field.
+08:51:04.767 [main] INFO  testcases.AccountPageTest - Row Data -> Account: 19560 | Balance: $5000.00 | Available: $5000.00
+08:51:04.768 [main] DEBUG testcases.AccountPageTest - Validated account is not empty.
+08:51:04.768 [main] DEBUG testcases.AccountPageTest - Validated balance contains $ symbol.
+08:51:04.768 [main] DEBUG testcases.AccountPageTest - Validated available balance field.
+08:51:04.768 [main] INFO  testcases.AccountPageTest - Row Data -> Account: 20004 | Balance: $100.00 | Available: $100.00
+08:51:04.768 [main] DEBUG testcases.AccountPageTest - Validated account is not empty.
+08:51:04.768 [main] DEBUG testcases.AccountPageTest - Validated balance contains $ symbol.
+08:51:04.768 [main] DEBUG testcases.AccountPageTest - Validated available balance field.
+08:51:04.769 [main] INFO  testcases.AccountPageTest - Row Data -> Account: 20115 | Balance: $100.00 | Available: $100.00
+08:51:04.769 [main] DEBUG testcases.AccountPageTest - Validated account is not empty.
+08:51:04.770 [main] DEBUG testcases.AccountPageTest - Validated balance contains $ symbol.
+08:51:04.770 [main] DEBUG testcases.AccountPageTest - Validated available balance field.
+08:51:04.770 [main] INFO  testcases.AccountPageTest - Row Data -> Account: 20448 | Balance: $5000.00 | Available: $5000.00
+08:51:04.771 [main] DEBUG testcases.AccountPageTest - Validated account is not empty.
+08:51:04.772 [main] DEBUG testcases.AccountPageTest - Validated balance contains $ symbol.
+08:51:04.772 [main] DEBUG testcases.AccountPageTest - Validated available balance field.
+08:51:04.773 [main] INFO  testcases.AccountPageTest - Row Data -> Account: 20892 | Balance: $100.00 | Available: $100.00
+08:51:04.773 [main] DEBUG testcases.AccountPageTest - Validated account is not empty.
+08:51:04.773 [main] DEBUG testcases.AccountPageTest - Validated balance contains $ symbol.
+08:51:04.773 [main] DEBUG testcases.AccountPageTest - Validated available balance field.
+08:51:04.773 [main] INFO  testcases.AccountPageTest - Row Data -> Account: 21114 | Balance: $100.00 | Available: $100.00
+08:51:04.773 [main] DEBUG testcases.AccountPageTest - Validated account is not empty.
+08:51:04.774 [main] DEBUG testcases.AccountPageTest - Validated balance contains $ symbol.
+08:51:04.774 [main] DEBUG testcases.AccountPageTest - Validated available balance field.
+08:51:04.774 [main] INFO  testcases.AccountPageTest - Row Data -> Account: 22335 | Balance: $100.00 | Available: $100.00
+08:51:04.774 [main] DEBUG testcases.AccountPageTest - Validated account is not empty.
+08:51:04.774 [main] DEBUG testcases.AccountPageTest - Validated balance contains $ symbol.
+08:51:04.774 [main] DEBUG testcases.AccountPageTest - Validated available balance field.
+08:51:04.775 [main] INFO  testcases.AccountPageTest - Row Data -> Account: 22446 | Balance: $100.00 | Available: $100.00
+08:51:04.775 [main] DEBUG testcases.AccountPageTest - Validated account is not empty.
+08:51:04.776 [main] DEBUG testcases.AccountPageTest - Validated balance contains $ symbol.
+08:51:04.776 [main] DEBUG testcases.AccountPageTest - Validated available balance field.
+08:51:04.776 [main] INFO  testcases.AccountPageTest - Row Data -> Account: 23001 | Balance: $100.00 | Available: $100.00
+08:51:04.777 [main] DEBUG testcases.AccountPageTest - Validated account is not empty.
+08:51:04.778 [main] DEBUG testcases.AccountPageTest - Validated balance contains $ symbol.
+08:51:04.778 [main] DEBUG testcases.AccountPageTest - Validated available balance field.
+08:51:04.779 [main] INFO  testcases.AccountPageTest - Row Data -> Account: 23112 | Balance: $100.00 | Available: $100.00
+08:51:04.779 [main] DEBUG testcases.AccountPageTest - Validated account is not empty.
+08:51:04.779 [main] DEBUG testcases.AccountPageTest - Validated balance contains $ symbol.
+08:51:04.779 [main] DEBUG testcases.AccountPageTest - Validated available balance field.
+08:51:04.780 [main] INFO  testcases.AccountPageTest - Row Data -> Account: 23223 | Balance: $100.00 | Available: $100.00
+08:51:04.780 [main] DEBUG testcases.AccountPageTest - Validated account is not empty.
+08:51:04.781 [main] DEBUG testcases.AccountPageTest - Validated balance contains $ symbol.
+08:51:04.781 [main] DEBUG testcases.AccountPageTest - Validated available balance field.
+08:51:04.781 [main] INFO  testcases.AccountPageTest - Row Data -> Account: 23556 | Balance: $100.00 | Available: $100.00
+08:51:04.781 [main] DEBUG testcases.AccountPageTest - Validated account is not empty.
+08:51:04.782 [main] DEBUG testcases.AccountPageTest - Validated balance contains $ symbol.
+08:51:04.782 [main] DEBUG testcases.AccountPageTest - Validated available balance field.
+08:51:04.782 [main] INFO  testcases.AccountPageTest - Row Data -> Account: 23667 | Balance: $100.00 | Available: $100.00
+08:51:04.783 [main] DEBUG testcases.AccountPageTest - Validated account is not empty.
+08:51:04.783 [main] DEBUG testcases.AccountPageTest - Validated balance contains $ symbol.
+08:51:04.783 [main] DEBUG testcases.AccountPageTest - Validated available balance field.
+08:51:04.783 [main] INFO  testcases.AccountPageTest - Row Data -> Account: 24555 | Balance: $100.00 | Available: $100.00
+08:51:04.783 [main] DEBUG testcases.AccountPageTest - Validated account is not empty.
+08:51:04.784 [main] DEBUG testcases.AccountPageTest - Validated balance contains $ symbol.
+08:51:04.784 [main] DEBUG testcases.AccountPageTest - Validated available balance field.
+08:51:04.785 [main] INFO  testcases.AccountPageTest - Row Data -> Account: 24666 | Balance: $100.00 | Available: $100.00
+08:51:04.785 [main] DEBUG testcases.AccountPageTest - Validated account is not empty.
+08:51:04.785 [main] DEBUG testcases.AccountPageTest - Validated balance contains $ symbol.
+08:51:04.785 [main] DEBUG testcases.AccountPageTest - Validated available balance field.
+08:51:04.785 [main] INFO  testcases.AccountPageTest - Row Data -> Account: 25110 | Balance: $100.00 | Available: $100.00
+08:51:04.785 [main] DEBUG testcases.AccountPageTest - Validated account is not empty.
+08:51:04.785 [main] DEBUG testcases.AccountPageTest - Validated balance contains $ symbol.
+08:51:04.788 [main] DEBUG testcases.AccountPageTest - Validated available balance field.
+08:51:04.789 [main] INFO  testcases.AccountPageTest - ===== Completed Test: verifyAccountRowsData =====
+08:51:04.818 [main] INFO  testcases.AccountPageTest - ===== Starting Test: verifyTotalBalance =====
+08:51:07.830 [main] INFO  testcases.AccountPageTest - Calculated Total: 33022.929999999935
+08:51:07.831 [main] INFO  testcases.AccountPageTest - Displayed Total: 33022.93
+08:54:30.559 [main] INFO  testcases.BillPageTest - ===== Starting billPageDataTest with data: {Account=20004, Address=Iyara Ijumu LGA Kogi State, verify Account=20004, State=Kogi, ZipCode=49292, Phone=09188282828, Amount=100.0, From Acount=1.0, City=Kabba, Name=Alemidan Ojo} =====
+08:54:34.238 [main] INFO  testcases.BillPageTest - Login successful with username: Johnson_Tester
+08:54:34.343 [main] INFO  testcases.BillPageTest - Fetched old balance: -1202956.07
+08:54:34.343 [main] INFO  testcases.BillPageTest - Bill payment amount: 100.0
+08:54:35.124 [main] INFO  testcases.BillPageTest - Navigated to Bill Pay page.
+08:54:36.731 [main] INFO  testcases.BillPageTest - Submitted Bill Pay form with payee: Alemidan Ojo
+08:54:37.354 [main] INFO  testcases.BillPageTest - Verified confirmation header is displayed.
+08:54:37.437 [main] DEBUG testcases.BillPageTest - Confirmation message: Bill Payment to Alemidan Ojo in the amount of $100.00 from account 16230 was successful.
+08:54:37.439 [main] INFO  testcases.BillPageTest - Verified confirmation text is not empty.
+08:54:38.509 [main] INFO  testcases.BillPageTest - Navigated back to Account Overview page.
+08:54:38.955 [main] INFO  testcases.BillPageTest - Fetched new balance: -1202956.07
+08:56:56.620 [main] INFO  testcases.CreateAccountTest - === Starting Checking Account Creation Test ===
+08:56:56.623 [main] INFO  testcases.CreateAccountTest - Logging into the application
+08:56:58.661 [main] DEBUG testcases.CreateAccountTest - Login successful, navigation and accounts pages initialized
+08:56:58.662 [main] INFO  testcases.CreateAccountTest - Navigating to Open Account page for account type: CHECKING
+08:57:00.066 [main] INFO  testcases.CreateAccountTest - Submitted account creation form for type: CHECKING
+08:57:00.713 [main] INFO  testcases.CreateAccountTest - Confirmation Message: Account Opened!
+08:57:00.760 [main] INFO  testcases.CreateAccountTest - New Account ID: 27441
+08:57:00.760 [main] INFO  testcases.CreateAccountTest - Navigating back to Account Overview to verify new account
+08:57:03.661 [main] INFO  testcases.CreateAccountTest - Account found in overview: true
+08:57:03.661 [main] INFO  testcases.CreateAccountTest - === Finished Checking Account Creation Test ===
+08:57:03.678 [main] INFO  testcases.CreateAccountTest - === Starting Saving Account Creation Test ===
+08:57:03.678 [main] INFO  testcases.CreateAccountTest - Navigating to Open Account page for account type: SAVINGS
+08:57:04.772 [main] INFO  testcases.CreateAccountTest - Submitted account creation form for type: SAVINGS
+08:57:05.387 [main] INFO  testcases.CreateAccountTest - Confirmation Message: Account Opened!
+08:57:05.419 [main] INFO  testcases.CreateAccountTest - New Account ID: 27552
+08:57:05.419 [main] INFO  testcases.CreateAccountTest - Navigating back to Account Overview to verify new account
+08:57:07.267 [main] INFO  testcases.CreateAccountTest - Account found in overview: true
+08:57:07.267 [main] INFO  testcases.CreateAccountTest - === Finished Saving Account Creation Test ===
+09:02:20.039 [main] INFO  testcases.LoginTest - ===== Starting Login Test for user: Johnson_Tester | Expected: valid =====
+09:02:20.090 [main] DEBUG testcases.LoginTest - Verifying login page UI elements...
+09:02:20.218 [main] INFO  testcases.LoginTest - Entering credentials: Johnson_Tester / Password123!
+09:02:21.942 [main] DEBUG testcases.LoginTest - Login success flag returned: true
+09:02:21.943 [main] INFO  testcases.LoginTest - ✅ Login successful with valid credentials.
+09:02:23.503 [main] INFO  testcases.LoginTest - Logged out after successful login.
+09:02:23.503 [main] INFO  testcases.LoginTest - ===== Finished Login Test for user: Johnson_Tester =====
+09:02:23.533 [main] INFO  testcases.LoginTest - ===== Starting Login Test for user: invalidUser123 | Expected: invalid =====
+09:02:23.535 [main] DEBUG testcases.LoginTest - Verifying login page UI elements...
+09:02:23.626 [main] INFO  testcases.LoginTest - Entering credentials: invalidUser123 / Test1234
+09:02:24.891 [main] DEBUG testcases.LoginTest - Login success flag returned: true
+09:02:24.891 [main] ERROR testcases.LoginTest - ❌ Login succeeded with invalid credentials.
+09:02:25.670 [main] INFO  testcases.LoginTest - ===== Finished Login Test for user: invalidUser123 =====
+09:02:25.688 [main] INFO  testcases.LoginTest - ===== Starting Login Test for user: Johnson_Tester | Expected: invalid =====
+09:02:25.689 [main] DEBUG testcases.LoginTest - Verifying login page UI elements...
+09:02:25.776 [main] INFO  testcases.LoginTest - Entering credentials: Johnson_Tester / Pass@1234
+09:02:27.096 [main] DEBUG testcases.LoginTest - Login success flag returned: true
+09:02:27.096 [main] ERROR testcases.LoginTest - ❌ Login succeeded with invalid credentials.
+09:02:27.869 [main] INFO  testcases.LoginTest - ===== Finished Login Test for user: Johnson_Tester =====
+09:02:27.887 [main] INFO  testcases.LoginTest - ===== Starting Login Test for user:  | Expected: invalid =====
+09:02:27.888 [main] DEBUG testcases.LoginTest - Verifying login page UI elements...
+09:02:27.976 [main] INFO  testcases.LoginTest - Entering credentials:  / 
+09:02:48.698 [main] INFO  testcases.LoginTest - ===== Starting Login Test for user:  | Expected: invalid =====
+09:02:48.698 [main] DEBUG testcases.LoginTest - Verifying login page UI elements...
+09:02:48.793 [main] INFO  testcases.LoginTest - Entering credentials:  / Test1234
+20:48:11.263 [main] INFO  testcases.CreateAccountTest - === Starting Checking Account Creation Test ===
+20:48:11.266 [main] INFO  testcases.CreateAccountTest - Logging into the application
+20:48:13.140 [main] DEBUG testcases.CreateAccountTest - Login successful, navigation and accounts pages initialized
+20:48:13.140 [main] INFO  testcases.CreateAccountTest - Navigating to Open Account page for account type: CHECKING
+20:48:23.462 [main] INFO  testcases.CreateAccountTest - === Starting Saving Account Creation Test ===
+20:48:23.462 [main] INFO  testcases.CreateAccountTest - Navigating to Open Account page for account type: SAVINGS
+20:49:08.290 [main] INFO  testcases.BillPageTest - ===== Starting billPageDataTest with data: {Account=20004, Address=Iyara Ijumu LGA Kogi State, verify Account=20004, State=Kogi, ZipCode=49292, Phone=09188282828, Amount=100.0, From Acount=1.0, City=Kabba, Name=Alemidan Ojo} =====
+20:49:10.532 [main] INFO  testcases.BillPageTest - Login successful with username: Johnson_Tester
+21:00:55.892 [main] INFO  testcases.CreateAccountTest - === Starting Checking Account Creation Test ===
+21:00:55.895 [main] INFO  testcases.CreateAccountTest - Logging into the application
+21:00:58.786 [main] DEBUG testcases.CreateAccountTest - Login successful, navigation and accounts pages initialized
+21:00:58.787 [main] INFO  testcases.CreateAccountTest - Navigating to Open Account page for account type: CHECKING
+21:01:09.026 [main] INFO  testcases.CreateAccountTest - === Starting Saving Account Creation Test ===
+21:01:09.026 [main] INFO  testcases.CreateAccountTest - Navigating to Open Account page for account type: SAVINGS
+21:11:52.444 [main] INFO  testcases.CreateAccountTest - === Starting Checking Account Creation Test ===
+21:11:52.449 [main] INFO  testcases.CreateAccountTest - Logging into the application
+21:11:52.804 [main] DEBUG testcases.CreateAccountTest - Login successful, navigation and accounts pages initialized
+21:11:52.805 [main] INFO  testcases.CreateAccountTest - Navigating to Open Account page for account type: CHECKING
+21:12:05.728 [main] INFO  testcases.CreateAccountTest - === Starting Saving Account Creation Test ===
+21:12:05.728 [main] INFO  testcases.CreateAccountTest - Navigating to Open Account page for account type: SAVINGS
+03:30:47.331 [main] INFO  testcases.CreateAccountTest - === Starting Checking Account Creation Test ===
+03:30:47.338 [main] INFO  testcases.CreateAccountTest - Logging into the application
+03:30:51.155 [main] DEBUG testcases.CreateAccountTest - Login successful, navigation and accounts pages initialized
+03:30:51.155 [main] INFO  testcases.CreateAccountTest - Navigating to Open Account page for account type: CHECKING
+03:30:52.255 [main] INFO  testcases.CreateAccountTest - Submitted account creation form for type: CHECKING
+03:30:52.865 [main] INFO  testcases.CreateAccountTest - Confirmation Message: Account Opened!
+03:30:52.894 [main] INFO  testcases.CreateAccountTest - New Account ID: 15564
+03:30:52.894 [main] INFO  testcases.CreateAccountTest - Navigating back to Account Overview to verify new account
+03:30:53.715 [main] INFO  testcases.CreateAccountTest - Account found in overview: true
+03:30:53.715 [main] INFO  testcases.CreateAccountTest - === Finished Checking Account Creation Test ===
+03:30:53.715 [main] INFO  testcases.CreateAccountTest - === Starting Saving Account Creation Test ===
+03:30:53.715 [main] INFO  testcases.CreateAccountTest - Navigating to Open Account page for account type: SAVINGS
+03:30:54.641 [main] INFO  testcases.CreateAccountTest - Submitted account creation form for type: SAVINGS
+03:30:55.233 [main] INFO  testcases.CreateAccountTest - Confirmation Message: Account Opened!
+03:30:55.253 [main] INFO  testcases.CreateAccountTest - New Account ID: 15675
+03:30:55.253 [main] INFO  testcases.CreateAccountTest - Navigating back to Account Overview to verify new account
+03:30:56.047 [main] INFO  testcases.CreateAccountTest - Account found in overview: true
+03:30:56.047 [main] INFO  testcases.CreateAccountTest - === Finished Saving Account Creation Test ===
+03:31:12.432 [main] INFO  testcases.BillPageTest - ===== Starting billPageDataTest with data: {Account=20004, Address=Iyara Ijumu LGA Kogi State, verify Account=20004, State=Kogi, ZipCode=49292, Phone=09188282828, Amount=100.0, From Acount=1.0, City=Kabba, Name=Alemidan Ojo} =====
+03:31:13.884 [main] INFO  testcases.BillPageTest - Login successful with username: Johnson_Tester
+03:31:14.494 [main] INFO  testcases.BillPageTest - Fetched old balance: 51270.5
+03:31:14.494 [main] INFO  testcases.BillPageTest - Bill payment amount: 100.0
+03:31:15.144 [main] INFO  testcases.BillPageTest - Navigated to Bill Pay page.
+03:31:16.200 [main] INFO  testcases.BillPageTest - Submitted Bill Pay form with payee: Alemidan Ojo
+03:31:16.782 [main] INFO  testcases.BillPageTest - Verified confirmation header is displayed.
+03:31:16.835 [main] DEBUG testcases.BillPageTest - Confirmation message: Bill Payment to Alemidan Ojo in the amount of $100.00 from account 15453 was successful.
+03:31:16.835 [main] INFO  testcases.BillPageTest - Verified confirmation text is not empty.
+03:31:17.329 [main] INFO  testcases.BillPageTest - Navigated back to Account Overview page.
+03:31:17.683 [main] INFO  testcases.BillPageTest - Fetched new balance: 51170.5
+03:31:17.683 [main] INFO  testcases.BillPageTest - Verified new balance reflects the bill payment correctly. Old: 51270.5, New: 51170.5, Paid: 100.0
+03:31:17.683 [main] INFO  testcases.BillPageTest - ===== Completed billPageDataTest successfully =====
+17:16:05.237 [main] INFO  testcases.CreateAccountTest - === Starting Checking Account Creation Test ===
+17:16:05.241 [main] INFO  testcases.CreateAccountTest - Logging into the application
+17:16:07.184 [main] DEBUG testcases.CreateAccountTest - Login successful, navigation and accounts pages initialized
+17:16:07.185 [main] INFO  testcases.CreateAccountTest - Navigating to Open Account page for account type: CHECKING
+17:16:08.686 [main] INFO  testcases.CreateAccountTest - Submitted account creation form for type: CHECKING
+17:16:09.279 [main] INFO  testcases.CreateAccountTest - Confirmation Message: Account Opened!
+17:16:09.309 [main] INFO  testcases.CreateAccountTest - New Account ID: 20559
+17:16:09.309 [main] INFO  testcases.CreateAccountTest - Navigating back to Account Overview to verify new account
+17:16:10.691 [main] INFO  testcases.CreateAccountTest - Account found in overview: true
+17:16:10.691 [main] INFO  testcases.CreateAccountTest - === Finished Checking Account Creation Test ===
+17:16:10.706 [main] INFO  testcases.CreateAccountTest - === Starting Saving Account Creation Test ===
+17:16:10.706 [main] INFO  testcases.CreateAccountTest - Navigating to Open Account page for account type: SAVINGS
+17:16:11.739 [main] INFO  testcases.CreateAccountTest - Submitted account creation form for type: SAVINGS
+17:16:12.331 [main] INFO  testcases.CreateAccountTest - Confirmation Message: Account Opened!
+17:16:12.356 [main] INFO  testcases.CreateAccountTest - New Account ID: 20670
+17:16:12.356 [main] INFO  testcases.CreateAccountTest - Navigating back to Account Overview to verify new account
+17:16:13.269 [main] INFO  testcases.CreateAccountTest - Account found in overview: true
+17:16:13.269 [main] INFO  testcases.CreateAccountTest - === Finished Saving Account Creation Test ===
+17:16:18.994 [main] INFO  testcases.PositiveTransferTest - ===== Starting Positive Transfer Test - Case 1 =====
+17:16:21.020 [main] DEBUG testcases.PositiveTransferTest - Initiating transfer: amount=20, from=0, to=1
+17:16:21.020 [main] DEBUG testcases.PositiveTransferTest - Navigating to Transfer Funds page...
+17:16:22.680 [main] DEBUG testcases.PositiveTransferTest - Validating confirmation message...
+17:16:23.267 [main] INFO  testcases.PositiveTransferTest - ✅ Confirmation header displayed.
+17:16:23.324 [main] INFO  testcases.PositiveTransferTest - ✅ Transfer amount confirmed in message: 20
+17:16:23.324 [main] INFO  testcases.PositiveTransferTest - ✅ 'From account' mentioned in confirmation message.
+17:16:23.324 [main] INFO  testcases.PositiveTransferTest - ✅ 'To account' mentioned in confirmation message.
+17:16:23.324 [main] INFO  testcases.PositiveTransferTest - ===== Finished Positive Transfer Test - Case 1 =====
+17:16:23.324 [main] INFO  testcases.PositiveTransferTest - ===== Starting Positive Transfer Test - Case 2 =====
+17:16:23.340 [main] DEBUG testcases.PositiveTransferTest - Initiating transfer: amount=30, from=0, to=2
+17:16:23.340 [main] DEBUG testcases.PositiveTransferTest - Navigating to Transfer Funds page...
+17:16:25.067 [main] DEBUG testcases.PositiveTransferTest - Validating confirmation message...
+17:16:25.637 [main] INFO  testcases.PositiveTransferTest - ✅ Confirmation header displayed.
+17:16:25.684 [main] INFO  testcases.PositiveTransferTest - ✅ Transfer amount confirmed in message: 30
+17:16:25.684 [main] INFO  testcases.PositiveTransferTest - ✅ 'From account' mentioned in confirmation message.
+17:16:25.684 [main] INFO  testcases.PositiveTransferTest - ✅ 'To account' mentioned in confirmation message.
+17:16:25.684 [main] INFO  testcases.PositiveTransferTest - ===== Finished Positive Transfer Test - Case 2 =====
+17:16:31.176 [main] INFO  testcases.BillPageTest - ===== Starting billPageDataTest with data: {Account=20004, Address=Iyara Ijumu LGA Kogi State, verify Account=20004, State=Kogi, ZipCode=49292, Phone=09188282828, Amount=100.0, From Acount=1.0, City=Kabba, Name=Alemidan Ojo} =====
+17:16:33.333 [main] INFO  testcases.BillPageTest - Login successful with username: Johnson_Tester
+17:16:33.616 [main] INFO  testcases.BillPageTest - Fetched old balance: 4900.5
+17:16:33.616 [main] INFO  testcases.BillPageTest - Bill payment amount: 100.0
+17:16:34.651 [main] INFO  testcases.BillPageTest - Navigated to Bill Pay page.
+17:16:35.713 [main] INFO  testcases.BillPageTest - Submitted Bill Pay form with payee: Alemidan Ojo
+17:16:36.294 [main] INFO  testcases.BillPageTest - Verified confirmation header is displayed.
+17:16:36.332 [main] DEBUG testcases.BillPageTest - Confirmation message: Bill Payment to Alemidan Ojo in the amount of $100.00 from account 20448 was successful.
+17:16:36.332 [main] INFO  testcases.BillPageTest - Verified confirmation text is not empty.
+17:16:36.883 [main] INFO  testcases.BillPageTest - Navigated back to Account Overview page.
+17:16:37.315 [main] INFO  testcases.BillPageTest - Fetched new balance: 4800.5
+17:16:37.315 [main] INFO  testcases.BillPageTest - Verified new balance reflects the bill payment correctly. Old: 4900.5, New: 4800.5, Paid: 100.0
+17:16:37.315 [main] INFO  testcases.BillPageTest - ===== Completed billPageDataTest successfully =====
+17:17:10.699 [main] INFO  testcases.PositiveTransferTest - ===== Starting Positive Transfer Test - Case 1 =====
+17:17:12.786 [main] DEBUG testcases.PositiveTransferTest - Initiating transfer: amount=20, from=0, to=1
+17:17:12.786 [main] DEBUG testcases.PositiveTransferTest - Navigating to Transfer Funds page...
+17:17:13.979 [main] DEBUG testcases.PositiveTransferTest - Validating confirmation message...
+17:17:14.559 [main] INFO  testcases.PositiveTransferTest - ✅ Confirmation header displayed.
+17:17:14.621 [main] INFO  testcases.PositiveTransferTest - ✅ Transfer amount confirmed in message: 20
+17:17:14.621 [main] INFO  testcases.PositiveTransferTest - ✅ 'From account' mentioned in confirmation message.
+17:17:14.621 [main] INFO  testcases.PositiveTransferTest - ✅ 'To account' mentioned in confirmation message.
+17:17:14.621 [main] INFO  testcases.PositiveTransferTest - ===== Finished Positive Transfer Test - Case 1 =====
+17:17:14.637 [main] INFO  testcases.PositiveTransferTest - ===== Starting Positive Transfer Test - Case 2 =====
+17:17:14.637 [main] DEBUG testcases.PositiveTransferTest - Initiating transfer: amount=30, from=0, to=2
+17:17:14.637 [main] DEBUG testcases.PositiveTransferTest - Navigating to Transfer Funds page...
+17:17:15.731 [main] DEBUG testcases.PositiveTransferTest - Validating confirmation message...
+17:17:16.318 [main] INFO  testcases.PositiveTransferTest - ✅ Confirmation header displayed.
+17:17:16.365 [main] INFO  testcases.PositiveTransferTest - ✅ Transfer amount confirmed in message: 30
+17:17:16.365 [main] INFO  testcases.PositiveTransferTest - ✅ 'From account' mentioned in confirmation message.
+17:17:16.365 [main] INFO  testcases.PositiveTransferTest - ✅ 'To account' mentioned in confirmation message.
+17:17:16.365 [main] INFO  testcases.PositiveTransferTest - ===== Finished Positive Transfer Test - Case 2 =====
+17:17:51.184 [main] INFO  testcases.NegativeTransferTest - ✅ Logged in successfully!
+17:17:51.360 [main] INFO  testcases.NegativeTransferTest - ===== Starting Negative Transfer Test =====
+17:17:52.165 [main] DEBUG testcases.NegativeTransferTest - 🧪 Testing: amount=-50.0, from=0, to=1
+17:17:58.392 [main] INFO  testcases.NegativeTransferTest - ===== Starting Negative Transfer Test =====
+17:17:58.909 [main] DEBUG testcases.NegativeTransferTest - 🧪 Testing: amount=0.0, from=0, to=2
+17:18:05.092 [main] INFO  testcases.NegativeTransferTest - ===== Starting Negative Transfer Test =====
+17:18:05.592 [main] DEBUG testcases.NegativeTransferTest - 🧪 Testing: amount=abc, from=0, to=1
+17:18:06.913 [main] INFO  testcases.NegativeTransferTest - ✅ PASS - Invalid input rejected: An internal error has occurred and has been logged.
+17:18:06.913 [main] INFO  testcases.NegativeTransferTest - ===== Finished Negative Transfer Test =====
+17:18:06.913 [main] INFO  testcases.NegativeTransferTest - ===== Starting Negative Transfer Test =====
+17:18:07.417 [main] DEBUG testcases.NegativeTransferTest - 🧪 Testing: amount=600.0, from=0, to=2
+17:23:29.142 [main] INFO  testcases.RegisterNegativeTest - ===== Starting RegisterNegativeTest - Mandatory Fields Validation =====
+17:23:29.152 [main] INFO  testcases.RegisterNegativeTest - 🧪 Testing mandatory validation for field: First Name
+17:23:29.154 [main] DEBUG testcases.RegisterNegativeTest - Navigating to registration page...
+17:23:30.803 [main] DEBUG testcases.RegisterNegativeTest - Submitting registration form with data: {Address=123 Test St, Username=Johnson_Tester, State=CA, ZipCode=12345.0, Confirm Password=Password123!, First Name=, City=Testville, Last Name=Green, Phone Number=555-123-4567, SSN=8.39383897E8, Password=Password123!}
+17:23:32.878 [main] DEBUG testcases.RegisterNegativeTest - Error message displayed for First Name: First name is required.
+17:23:32.917 [main] INFO  testcases.RegisterNegativeTest - ✅ Registration correctly failed for missing field: First Name
+17:23:33.751 [main] DEBUG testcases.RegisterNegativeTest - Resetting application state for next field test.
+17:23:33.757 [main] INFO  testcases.RegisterNegativeTest - 🧪 Testing mandatory validation for field: Last Name
+17:23:33.757 [main] DEBUG testcases.RegisterNegativeTest - Navigating to registration page...
+17:23:34.321 [main] DEBUG testcases.RegisterNegativeTest - Submitting registration form with data: {Address=123 Test St, Username=Johnson_Tester, State=CA, ZipCode=12345.0, Confirm Password=Password123!, First Name=Johnson, City=Testville, Last Name=, Phone Number=555-123-4567, SSN=8.39383897E8, Password=Password123!}
+17:23:36.246 [main] DEBUG testcases.RegisterNegativeTest - Error message displayed for Last Name: Last name is required.
+17:23:36.262 [main] INFO  testcases.RegisterNegativeTest - ✅ Registration correctly failed for missing field: Last Name
+17:23:36.668 [main] DEBUG testcases.RegisterNegativeTest - Resetting application state for next field test.
+17:23:36.669 [main] INFO  testcases.RegisterNegativeTest - 🧪 Testing mandatory validation for field: Address
+17:23:36.669 [main] DEBUG testcases.RegisterNegativeTest - Navigating to registration page...
+17:23:37.183 [main] DEBUG testcases.RegisterNegativeTest - Submitting registration form with data: {Address=, Username=Johnson_Tester, State=CA, ZipCode=12345.0, Confirm Password=Password123!, First Name=Johnson, City=Testville, Last Name=Green, Phone Number=555-123-4567, SSN=8.39383897E8, Password=Password123!}
+17:23:39.083 [main] DEBUG testcases.RegisterNegativeTest - Error message displayed for Address: Address is required.
+17:23:39.097 [main] INFO  testcases.RegisterNegativeTest - ✅ Registration correctly failed for missing field: Address
+17:23:40.134 [main] DEBUG testcases.RegisterNegativeTest - Resetting application state for next field test.
+17:23:40.134 [main] INFO  testcases.RegisterNegativeTest - 🧪 Testing mandatory validation for field: City
+17:23:40.134 [main] DEBUG testcases.RegisterNegativeTest - Navigating to registration page...
+17:23:41.134 [main] DEBUG testcases.RegisterNegativeTest - Submitting registration form with data: {Address=123 Test St, Username=Johnson_Tester, State=CA, ZipCode=12345.0, Confirm Password=Password123!, First Name=Johnson, City=, Last Name=Green, Phone Number=555-123-4567, SSN=8.39383897E8, Password=Password123!}
+17:23:43.047 [main] DEBUG testcases.RegisterNegativeTest - Error message displayed for City: City is required.
+17:23:43.081 [main] INFO  testcases.RegisterNegativeTest - ✅ Registration correctly failed for missing field: City
+17:23:43.512 [main] DEBUG testcases.RegisterNegativeTest - Resetting application state for next field test.
+17:23:43.512 [main] INFO  testcases.RegisterNegativeTest - 🧪 Testing mandatory validation for field: State
+17:23:43.512 [main] DEBUG testcases.RegisterNegativeTest - Navigating to registration page...
+17:23:44.050 [main] DEBUG testcases.RegisterNegativeTest - Submitting registration form with data: {Address=123 Test St, Username=Johnson_Tester, State=, ZipCode=12345.0, Confirm Password=Password123!, First Name=Johnson, City=Testville, Last Name=Green, Phone Number=555-123-4567, SSN=8.39383897E8, Password=Password123!}
+17:23:45.937 [main] DEBUG testcases.RegisterNegativeTest - Error message displayed for State: State is required.
+17:23:45.948 [main] INFO  testcases.RegisterNegativeTest - ✅ Registration correctly failed for missing field: State
+17:23:46.370 [main] DEBUG testcases.RegisterNegativeTest - Resetting application state for next field test.
+17:23:46.370 [main] INFO  testcases.RegisterNegativeTest - 🧪 Testing mandatory validation for field: ZipCode
+17:23:46.371 [main] DEBUG testcases.RegisterNegativeTest - Navigating to registration page...
+17:23:46.881 [main] DEBUG testcases.RegisterNegativeTest - Submitting registration form with data: {Address=123 Test St, Username=Johnson_Tester, State=CA, ZipCode=, Confirm Password=Password123!, First Name=Johnson, City=Testville, Last Name=Green, Phone Number=555-123-4567, SSN=8.39383897E8, Password=Password123!}
+17:23:48.844 [main] DEBUG testcases.RegisterNegativeTest - Error message displayed for ZipCode: Zip Code is required.
+17:23:48.864 [main] INFO  testcases.RegisterNegativeTest - ✅ Registration correctly failed for missing field: ZipCode
+17:23:49.321 [main] DEBUG testcases.RegisterNegativeTest - Resetting application state for next field test.
+17:23:49.322 [main] INFO  testcases.RegisterNegativeTest - 🧪 Testing mandatory validation for field: SSN
+17:23:49.322 [main] DEBUG testcases.RegisterNegativeTest - Navigating to registration page...
+17:23:49.867 [main] DEBUG testcases.RegisterNegativeTest - Submitting registration form with data: {Address=123 Test St, Username=Johnson_Tester, State=CA, ZipCode=12345.0, Confirm Password=Password123!, First Name=Johnson, City=Testville, Last Name=Green, Phone Number=555-123-4567, SSN=, Password=Password123!}
+17:23:51.794 [main] DEBUG testcases.RegisterNegativeTest - Error message displayed for SSN: Social Security Number is required.
+17:23:51.812 [main] INFO  testcases.RegisterNegativeTest - ✅ Registration correctly failed for missing field: SSN
+17:23:52.250 [main] DEBUG testcases.RegisterNegativeTest - Resetting application state for next field test.
+17:23:52.251 [main] INFO  testcases.RegisterNegativeTest - 🧪 Testing mandatory validation for field: Username
+17:23:52.252 [main] DEBUG testcases.RegisterNegativeTest - Navigating to registration page...
+17:23:52.777 [main] DEBUG testcases.RegisterNegativeTest - Submitting registration form with data: {Address=123 Test St, Username=, State=CA, ZipCode=12345.0, Confirm Password=Password123!, First Name=Johnson, City=Testville, Last Name=Green, Phone Number=555-123-4567, SSN=8.39383897E8, Password=Password123!}
+17:23:54.724 [main] DEBUG testcases.RegisterNegativeTest - Error message displayed for Username: Username is required.
+17:23:54.746 [main] INFO  testcases.RegisterNegativeTest - ✅ Registration correctly failed for missing field: Username
+17:23:55.167 [main] DEBUG testcases.RegisterNegativeTest - Resetting application state for next field test.
+17:23:55.168 [main] INFO  testcases.RegisterNegativeTest - 🧪 Testing mandatory validation for field: Password
+17:23:55.168 [main] DEBUG testcases.RegisterNegativeTest - Navigating to registration page...
+17:23:55.737 [main] DEBUG testcases.RegisterNegativeTest - Submitting registration form with data: {Address=123 Test St, Username=Johnson_Tester, State=CA, ZipCode=12345.0, Confirm Password=Password123!, First Name=Johnson, City=Testville, Last Name=Green, Phone Number=555-123-4567, SSN=8.39383897E8, Password=}
+17:23:57.705 [main] DEBUG testcases.RegisterNegativeTest - Error message displayed for Password: Password is required.
+17:23:57.729 [main] INFO  testcases.RegisterNegativeTest - ✅ Registration correctly failed for missing field: Password
+17:23:58.130 [main] DEBUG testcases.RegisterNegativeTest - Resetting application state for next field test.
+17:23:58.130 [main] INFO  testcases.RegisterNegativeTest - 🧪 Testing mandatory validation for field: Confirm Password
+17:23:58.130 [main] DEBUG testcases.RegisterNegativeTest - Navigating to registration page...
+17:23:58.672 [main] DEBUG testcases.RegisterNegativeTest - Submitting registration form with data: {Address=123 Test St, Username=Johnson_Tester, State=CA, ZipCode=12345.0, Confirm Password=, First Name=Johnson, City=Testville, Last Name=Green, Phone Number=555-123-4567, SSN=8.39383897E8, Password=Password123!}
+17:56:21.697 [main] INFO  utilities.ExtentReportManager - ===== Test Suite Started: Test =====
+17:56:22.030 [main] INFO  utilities.ExtentReportManager - Extent report initialized: Test-Report-2025.09.09.17.56.21.html
+17:56:28.514 [main] INFO  testcases.NegativeTransferTest - ✅ Logged in successfully!
+17:56:28.692 [main] INFO  testcases.NegativeTransferTest - ===== Starting Negative Transfer Test =====
+17:56:31.801 [main] DEBUG testcases.NegativeTransferTest - 🧪 Testing: amount=-50.0, from=0, to=1
+17:56:37.869 [main] ERROR utilities.ExtentReportManager - ❌ Test Failed: negativeTransferTest - Expected condition failed: waiting for visibility of [[EdgeDriver: MicrosoftEdge on windows (1f5ee93d14e4167b060f4f713c30d088)] -> xpath: //h1[normalize-space() = 'Error!']] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 140.0.3485.54, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:61468}, msedge: {msedgedriverVersion: 140.0.3485.54 (3cc379a8a5fb..., userDataDir: C:\Users\hp\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61468/devtoo..., se:cdpVersion: 140.0.3485.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1f5ee93d14e4167b060f4f713c30d088
+17:56:38.085 [main] INFO  utilities.ExtentReportManager - Screenshot captured for failed test: C:\Users\hp\git\ParaBank-AutomationSuite\ParaBank-AutomationSuite\screenshots\negativeTransferTest_20250909055637.png
+17:56:38.100 [main] INFO  testcases.NegativeTransferTest - ===== Starting Negative Transfer Test =====
+17:56:39.007 [main] DEBUG testcases.NegativeTransferTest - 🧪 Testing: amount=0.0, from=0, to=2
+17:56:45.095 [main] ERROR utilities.ExtentReportManager - ❌ Test Failed: negativeTransferTest - Expected condition failed: waiting for visibility of [[EdgeDriver: MicrosoftEdge on windows (1f5ee93d14e4167b060f4f713c30d088)] -> xpath: //h1[normalize-space() = 'Error!']] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 140.0.3485.54, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:61468}, msedge: {msedgedriverVersion: 140.0.3485.54 (3cc379a8a5fb..., userDataDir: C:\Users\hp\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61468/devtoo..., se:cdpVersion: 140.0.3485.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1f5ee93d14e4167b060f4f713c30d088
+17:56:45.270 [main] INFO  utilities.ExtentReportManager - Screenshot captured for failed test: C:\Users\hp\git\ParaBank-AutomationSuite\ParaBank-AutomationSuite\screenshots\negativeTransferTest_20250909055645.png
+17:56:45.285 [main] INFO  testcases.NegativeTransferTest - ===== Starting Negative Transfer Test =====
+17:56:45.804 [main] DEBUG testcases.NegativeTransferTest - 🧪 Testing: amount=abc, from=0, to=1
+17:56:47.057 [main] INFO  testcases.NegativeTransferTest - ✅ PASS - Invalid input rejected: An internal error has occurred and has been logged.
+17:56:47.057 [main] INFO  testcases.NegativeTransferTest - ===== Finished Negative Transfer Test =====
+17:56:47.057 [main] INFO  utilities.ExtentReportManager - ✅ Test Passed: negativeTransferTest
+17:56:47.057 [main] INFO  testcases.NegativeTransferTest - ===== Starting Negative Transfer Test =====
+17:56:48.008 [main] DEBUG testcases.NegativeTransferTest - 🧪 Testing: amount=600.0, from=0, to=2
+17:56:53.952 [main] ERROR utilities.ExtentReportManager - ❌ Test Failed: negativeTransferTest - Expected condition failed: waiting for visibility of [[EdgeDriver: MicrosoftEdge on windows (1f5ee93d14e4167b060f4f713c30d088)] -> xpath: //h1[normalize-space() = 'Error!']] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 140.0.3485.54, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:61468}, msedge: {msedgedriverVersion: 140.0.3485.54 (3cc379a8a5fb..., userDataDir: C:\Users\hp\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61468/devtoo..., se:cdpVersion: 140.0.3485.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1f5ee93d14e4167b060f4f713c30d088
+17:56:54.119 [main] INFO  utilities.ExtentReportManager - Screenshot captured for failed test: C:\Users\hp\git\ParaBank-AutomationSuite\ParaBank-AutomationSuite\screenshots\negativeTransferTest_20250909055653.png
+17:56:54.871 [main] INFO  utilities.ExtentReportManager - ===== Test Suite Finished: Test =====
+17:56:55.418 [main] INFO  utilities.ExtentReportManager - Extent report opened automatically: C:\Users\hp\git\ParaBank-AutomationSuite\ParaBank-AutomationSuite\reports\Test-Report-2025.09.09.17.56.21.html
+18:04:39.506 [main] INFO  utilities.ExtentReportManager - ===== Test Suite Started: Test =====
+18:04:39.792 [main] INFO  utilities.ExtentReportManager - Extent report initialized: Test-Report-2025.09.09.18.04.39.html
+18:04:47.554 [main] INFO  testcases.NegativeTransferTest - ✅ Logged in successfully!
+18:04:47.717 [main] INFO  testcases.NegativeTransferTest - ===== Starting Negative Transfer Test =====
+18:04:48.666 [main] DEBUG testcases.NegativeTransferTest - 🧪 Testing: amount=-50.0, from=0, to=1
+18:04:54.749 [main] ERROR utilities.ExtentReportManager - ❌ Test Failed: negativeTransferTest - Expected condition failed: waiting for visibility of [[EdgeDriver: MicrosoftEdge on windows (a6bdc3ad171c282ad0dfb48416bcb355)] -> xpath: //h1[normalize-space() = 'Error!']] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 140.0.3485.54, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:61734}, msedge: {msedgedriverVersion: 140.0.3485.54 (3cc379a8a5fb..., userDataDir: C:\Users\hp\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61734/devtoo..., se:cdpVersion: 140.0.3485.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a6bdc3ad171c282ad0dfb48416bcb355
+18:04:54.979 [main] INFO  utilities.ExtentReportManager - Screenshot captured for failed test: C:\Users\hp\git\ParaBank-AutomationSuite\ParaBank-AutomationSuite\screenshots\negativeTransferTest_20250909060454.png
+18:04:54.979 [main] INFO  testcases.NegativeTransferTest - ===== Starting Negative Transfer Test =====
+18:04:55.485 [main] DEBUG testcases.NegativeTransferTest - 🧪 Testing: amount=0.0, from=0, to=2
+18:05:01.506 [main] ERROR utilities.ExtentReportManager - ❌ Test Failed: negativeTransferTest - Expected condition failed: waiting for visibility of [[EdgeDriver: MicrosoftEdge on windows (a6bdc3ad171c282ad0dfb48416bcb355)] -> xpath: //h1[normalize-space() = 'Error!']] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 140.0.3485.54, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:61734}, msedge: {msedgedriverVersion: 140.0.3485.54 (3cc379a8a5fb..., userDataDir: C:\Users\hp\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61734/devtoo..., se:cdpVersion: 140.0.3485.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a6bdc3ad171c282ad0dfb48416bcb355
+18:05:01.680 [main] INFO  utilities.ExtentReportManager - Screenshot captured for failed test: C:\Users\hp\git\ParaBank-AutomationSuite\ParaBank-AutomationSuite\screenshots\negativeTransferTest_20250909060501.png
+18:05:01.696 [main] INFO  testcases.NegativeTransferTest - ===== Starting Negative Transfer Test =====
+18:05:02.233 [main] DEBUG testcases.NegativeTransferTest - 🧪 Testing: amount=abc, from=0, to=1
+18:05:03.517 [main] INFO  testcases.NegativeTransferTest - ✅ PASS - Invalid input rejected: An internal error has occurred and has been logged.
+18:05:03.517 [main] INFO  testcases.NegativeTransferTest - ===== Finished Negative Transfer Test =====
+18:05:03.517 [main] INFO  utilities.ExtentReportManager - ✅ Test Passed: negativeTransferTest
+18:05:03.517 [main] INFO  testcases.NegativeTransferTest - ===== Starting Negative Transfer Test =====
+18:05:04.071 [main] DEBUG testcases.NegativeTransferTest - 🧪 Testing: amount=600.0, from=0, to=2
+18:05:10.059 [main] ERROR utilities.ExtentReportManager - ❌ Test Failed: negativeTransferTest - Expected condition failed: waiting for visibility of [[EdgeDriver: MicrosoftEdge on windows (a6bdc3ad171c282ad0dfb48416bcb355)] -> xpath: //h1[normalize-space() = 'Error!']] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 140.0.3485.54, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:61734}, msedge: {msedgedriverVersion: 140.0.3485.54 (3cc379a8a5fb..., userDataDir: C:\Users\hp\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61734/devtoo..., se:cdpVersion: 140.0.3485.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a6bdc3ad171c282ad0dfb48416bcb355
+18:05:10.244 [main] INFO  utilities.ExtentReportManager - Screenshot captured for failed test: C:\Users\hp\git\ParaBank-AutomationSuite\ParaBank-AutomationSuite\screenshots\negativeTransferTest_20250909060510.png
+18:05:11.166 [main] INFO  utilities.ExtentReportManager - ===== Test Suite Finished: Test =====
+18:05:11.698 [main] INFO  utilities.ExtentReportManager - Extent report opened automatically: C:\Users\hp\git\ParaBank-AutomationSuite\ParaBank-AutomationSuite\reports\Test-Report-2025.09.09.18.04.39.html

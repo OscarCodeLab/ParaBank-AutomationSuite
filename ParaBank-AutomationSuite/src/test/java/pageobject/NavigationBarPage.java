@@ -31,6 +31,9 @@ public class NavigationBarPage {
 		@FindBy(linkText = "Register")
 		WebElement registerLink;
 		
+		@FindBy(linkText = "Find Transactions")
+		WebElement findTransacctionLink;
+		
 		public void clickTransferFundsLink() {
 			transferFundsLink.click();
 		}
@@ -49,6 +52,10 @@ public class NavigationBarPage {
 	    
 		public void clickRegisterLink() {
 			registerLink.click();
+		}
+		
+		public void clickFindTransacctionLink() {
+			findTransacctionLink.click();
 		}
 		
 }

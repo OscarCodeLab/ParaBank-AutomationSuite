@@ -19,7 +19,6 @@ public class RegisterTest extends BaseClass{
 		
 		nav = new NavigationBarPage(driver);
 		nav.clickRegisterLink();
-		
 		reg = new RegisterPage(driver);
 		reg.registerAccount(
 				data.get("First Name"), 

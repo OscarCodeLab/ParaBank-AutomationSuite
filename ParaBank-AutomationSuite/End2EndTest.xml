@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="utilities.ExtentReportManager"></listener>
+</listeners>
+  <test name="Register Tests">
+    <classes>
+      <class name="testcases.RegisterTest"/>
+    </classes>
+  </test>
+
+  <test name="Create Account Tests">
+    <classes>
+      <class name="testcases.CreateAccountTest"/>
+    </classes>
+  </test>
+
+  <test name="Positive Transfer Tests">
+    <classes>
+      <class name="testcases.PositiveTransferTest"/>
+    </classes>
+  </test>
+
+  <test name="Bill Page Tests">
+    <classes>
+      <class name="testcases.BillPageTest"/>
+    </classes>
+  </test>
+</suite>
+
+
